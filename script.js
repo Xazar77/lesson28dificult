@@ -23,7 +23,6 @@ const validate = (input) => {
         e.target.value = e.target.value.match(/^[0-9\.]+/g);
         
     });
-
 };
 validate(inputCurrency);
 
@@ -47,6 +46,4 @@ const renderValute = (data) => {
         }
      
     });
-    
-    
 };
